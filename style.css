@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    background-color: rgb(12, 12, 12);
+    height: 10vh;
+}
+
+.main1 i {
+    color: white;
+    margin-left: 20px;
+}
+
+.main1 input {
+    width: 30vw;
+    padding: 10px;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    border-radius: 25px;
+}
+
+.main2 h4 {
+    display: inline;
+    color: white;
+    margin-left: 20px;
+}
+
+button {
+    width: 8vw;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    color: black;
+}
+
+.ansh {
+     display: flex;
+    align-items: center; 
+ flex-direction: column;
+    height: 100%;
+    width: 20vw;
+}
+
+.ansh1 {
+    width: 17vw;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+     justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+    border: 1px solid white;
+    padding: 18px;
+    border-radius: 10px;
+}
+.ansh1 h3{}
+
+.bb {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.bb h3 {
+    margin: 20px 0px 10px 10px;
+}
+
+.bb h4 {
+    margin: 0px 0px 10px 10px;
+}
+
+.bb button {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    width: 150px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.ansh2 h2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
